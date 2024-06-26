@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B93DF180B17E9632E510A5E96CAFC00 /* RangersAppLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8F90ABD5C008C40C05CF3A3A449E1D /* RangersAppLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C88031AD873DDCF20896B7CE8DE6245 /* h5bridge-wkwebview.js in Resources */ = {isa = PBXBuildFile; fileRef = 276CE8B91FAA9F6E48165F21D813FE7E /* h5bridge-wkwebview.js */; };
+		0D20417D3EB8F559F4FC701EE13FF69F /* RangersAppLog-bitdummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899F9243C5BE359A62985C0D83AF6AD /* RangersAppLog-bitdummy.m */; };
+		15BC76EEC995656AAFDD88136B64CA53 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 86266372AE77AD578E3CBB272E353EF7 /* refresh.png */; };
+		168EA0E58A57303858E532F478CA592A /* RangersAppLogPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBC33E213135AD691FBD10FDC84AC95 /* RangersAppLogPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17E170854CD79383A5736FDBD0D3F61A /* BDAutoTrackSchemeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F1376DB72E7482AE08E0E17EC35728 /* BDAutoTrackSchemeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2126AD3A110EF1613AE90E948B84DE32 /* RangersAppLogCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B3DD2C32E30600FEBCE1E3422FE660 /* RangersAppLogCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26581F61620F28F490B9E094385CB7F3 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 3250925DC7AF1D253094514A4D32B73B /* send.png */; };
+		26BEDFED4415C904DFB2B5C0FA0DC0D2 /* BDAutoTrackDevTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA6EF1DD6A6C2397440A352BE1E5015 /* BDAutoTrackDevTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27155693EA85565CBFD681BE1C69CA1E /* BDAutoTrack+Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = CC73373245E7DB1C7F9A4782A565BE52 /* BDAutoTrack+Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279171E38DE03397509533C4C15A5AAE /* BDAutoTrack+UITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = F1411364D29690409646BCB4D271C10E /* BDAutoTrack+UITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D26916E0BDF45828496B47B97CC2C3C /* BDAutoTrackEncryptionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A389F63B7E2D4E8D3FE2485BD352B187 /* BDAutoTrackEncryptionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D5AD461E6DC923CFE44583E39F4A823 /* tab-log-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 80593AD8022037BA368D4EDCE6D4F878 /* tab-log-unselected.png */; };
+		2ECF749B24E9CEC5E9C8C2C866D73EC4 /* BDAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = AD03CE3CA9E831A25D9AFE0028E7DF92 /* BDAutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FA3C1F1DAC12CFFACE06D16D07E4D3D /* debug.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D6BDBD42282ED2E5C7956D94D5906A /* debug.png */; };
+		326531CD713027C745AD590703831152 /* tab-event-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = F02801A55D9B266CA896B783826156E2 /* tab-event-unselected.png */; };
+		37ACD2DAC9573E3B7F3EEE21EAA62C0A /* Pods-range_c-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A228F3280FA546B45648E0DC899F67 /* Pods-range_c-dummy.m */; };
+		38291D42D74B830E20403F6D0BD0059A /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B52933BE74E540928F80C181EDC666EE /* plus.png */; };
+		47B49E25776BC8AB650AF6639D830447 /* BDAutoTrack+Special.h in Headers */ = {isa = PBXBuildFile; fileRef = 573EDE0701B65CF2613BE502A70D2999 /* BDAutoTrack+Special.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55715E7580ACAEE99A1418D5380691F8 /* BDAutoTrackConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6268A0076898A189ABF36A2B9EC865 /* BDAutoTrackConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5593E5ACDB73A32759CE9A3A0C4FCAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		60B84D80915BBB08FAEE86CC1B18C379 /* BDCommonEnumDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C609DD9F9E42D5D02842E3DDC11152 /* BDCommonEnumDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B9B800F3D54A0F44795BED2143093C /* feature.png in Resources */ = {isa = PBXBuildFile; fileRef = E8AE59384C6774B3080CD313B5C5F884 /* feature.png */; };
+		63A7C9BE2CD63875CC314D762BDD3ACE /* tab-event.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB477BB50FFD88FC56C03680727C33D /* tab-event.png */; };
+		647DC2A303C188FB2289AE79B923EA0C /* RangersAppLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B7CAFDCFD8B54BCF81E263981AF1CF /* RangersAppLog-dummy.m */; };
+		668F84F223CCC9211DC34ADE7444D1A5 /* BDKeyWindowTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B9FB0FAF177088BB690522AE736D40 /* BDKeyWindowTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6734B38AA3F72044D11F7DD6DC9CFCB0 /* BDAutoTrackConfig+AppLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCFA5228F72B0E555AF944A1AF5C62A /* BDAutoTrackConfig+AppLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A461AC99055ABDDAB52AEECD0C95D90 /* BDAutoTrack+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 61206C57C26D19330756AA817F7E8986 /* BDAutoTrack+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A1AB717F8F42FC45527384BAC3400F /* BDAutoTrackURLHostItemCN.h in Headers */ = {isa = PBXBuildFile; fileRef = 411579182CE758610659D62EDF754DFF /* BDAutoTrackURLHostItemCN.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D21BF619BB4796DC17BE211801BF33 /* RangersAppLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BA5886195EF5E231719D4F566D6C64 /* RangersAppLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F3AB0CB2DCBFBA1683B7CA19B828DA0 /* floating_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AD369BABC974E9FE738BDA81D9C4FE7C /* floating_icon.png */; };
+		814A43866233BD2C8BB1531990FD1471 /* BDAutoTrackCacheRemover.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCCFD4ED6E188F841A83254C2CC393F /* BDAutoTrackCacheRemover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875A32C81C0658FFFF5B0B2600E73709 /* BDAutoTrack+OhayooGameTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 37898CB7F0E8D4A1ACFFEE8168E7846F /* BDAutoTrack+OhayooGameTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A69B0C2C65FC967A6504345AE51E42D /* RangersAppLogUITrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9F2EA9AAFA1DD9463F3393EB45AD3E /* RangersAppLogUITrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C8F0A5982A8181E49BA755B03406963 /* BDAutoTrack+SharedInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D9A66A7FC2512FF532A8F2568EEAFA /* BDAutoTrack+SharedInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C922CD9010BA8DEF359969073121EE3 /* BDAutoTrackConfig+BDroneMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E029199815F11811801BE38A334E7A /* BDAutoTrackConfig+BDroneMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		906993501929CC28D2DA5CD5FD44CDBD /* tab-log.png in Resources */ = {isa = PBXBuildFile; fileRef = D440C35B63C1084C67B7C92E1DD2AA72 /* tab-log.png */; };
+		A39B8A936329657743E931583B54229F /* BDAutoTrack+Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D664FBFFB8BEA45A84D5536401894B /* BDAutoTrack+Game.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6B1F5D7C9BA03424B0F23D00C1DE755 /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = 12B80FF93B5CF657777354552805EE68 /* log.png */; };
+		AF707A8E601A1B9EF03374FB048BDA47 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DE0E75FB1358F7AE5EED7697B48D3C04 /* search.png */; };
+		B2AC565BED3B847451FA08D800421E1F /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3733DAAB8DC4146999BB87FB4AAA69D9 /* arrow-down.png */; };
+		BB3BE508A7BC5080ACAE52014EC7AD6E /* BDAutoTrackEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 781FF12D622497E088A440F2081BB0A2 /* BDAutoTrackEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02ED25F50FDAAD74835193BFDBA3629 /* tab-env.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF462D58846AA9B530FF51BF3F35884 /* tab-env.png */; };
+		C0971998209C493FF0BFC92B4FA2C3D9 /* BDAutoTrackNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 2732F14D3DFA52216A967BE5692DB695 /* BDAutoTrackNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C0ADD3551D2CE7A3EDEA0C44F13376 /* BDCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D39553CC5A68826B4A35ABA3CFD106 /* BDCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C764BBA37A1E704A15EAF3E646B23596 /* Pods-range_c-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADD87E09D78F5FC5776DF2E355E3DA6 /* Pods-range_c-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C772F55934DB040CBD8F28F440FDE31F /* BDAutoTrack+LaunchFrom.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDAD1DD1265F43935119B45AA272D2A /* BDAutoTrack+LaunchFrom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA9C6C0A99D0A7A0732CD9CA9723C4C4 /* BDAutoTrack+GameTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = B3B5806D3C785CFD2A9910A13848EEE6 /* BDAutoTrack+GameTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A109462B5ACDC787BDE16E982A8557 /* tab-env-unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 96ECF94FD0EFCA3D68EC88AE22D3B119 /* tab-env-unselected.png */; };
+		D0EAD4DC411465B9C671FE81539B50BF /* UIViewController+TrackInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EA985D65A43A894EE10B5E0B435B0C4F /* UIViewController+TrackInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20729A03541C7CBE734B3BEB98D2E84 /* BDAutoTrackAlinkRouting.h in Headers */ = {isa = PBXBuildFile; fileRef = E17DE92CE2F5F7C284050320EEBEDDE8 /* BDAutoTrackAlinkRouting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E271BC836BE61265B84BBC78F0AAD6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB8D7EF92FADF97698F11B19D03354CF /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = A06605C406D21656DE26E54B9F147117 /* correct.png */; };
+		F0A988A6CADE278616D24EC89CD8AB93 /* UIView+TrackInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCAC99ADCDD69BC794E4B3E48CD3D67 /* UIView+TrackInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39C5B43EAE83E3C6C7E0E4E494BBD15 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C419B3C3C0119AA34928A6490765AD /* setting.png */; };
+		F869F86624A697D874A8FC6AAA4BE8A8 /* UIBarButtonItem+TrackInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1174E353EE30667727032A9A076446A0 /* UIBarButtonItem+TrackInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDCE04887F0847CE4B48478D2C9458D8 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EACC2DC8D99C5549D6D407D02048ADD /* close.png */; };
+		FFAAE4A7D20D1C67B4B278F644C61B26 /* BDAutoTrackExposure.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BCC04C1BD322294B4A343029EAC547 /* BDAutoTrackExposure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067BF1A4BCD984C6B6465A0ECFDFD652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7309BEC62178A076A15A53B5BBCFE773;
+			remoteInfo = "RangersAppLog-RangersAppLog";
+		};
+		656BB49EC47F581E336363B946258C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD6330AEC915E3D70F9B015DA99FDDC;
+			remoteInfo = "RangersAppLog-RangersAppLogDevTools";
+		};
+		8C588FE0AD11F5B71EBB4E47E6DBD7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF937598E444D6152D9CA2A472767ED9;
+			remoteInfo = RangersAppLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0460463F7FD7FB2F299DAE940804D9D6 /* Pods-range_c.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-range_c.debug.xcconfig"; sourceTree = "<group>"; };
+		0A127205E7DA82E755683FB48F2543F1 /* Pods-range_c-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-range_c-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EACC2DC8D99C5549D6D407D02048ADD /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = BDAutoTracker/Classes/DevTools/Assets/close.png; sourceTree = "<group>"; };
+		1174E353EE30667727032A9A076446A0 /* UIBarButtonItem+TrackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+TrackInfo.h"; path = "BDAutoTracker/Classes/UITracker/Header/UIBarButtonItem+TrackInfo.h"; sourceTree = "<group>"; };
+		12B80FF93B5CF657777354552805EE68 /* log.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = log.png; path = BDAutoTracker/Classes/DevTools/Assets/log.png; sourceTree = "<group>"; };
+		1397F43F592360D07D551D7252244B34 /* libRangersAppLog_DevTools_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_DevTools_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_DevTools_awesome_ios.a"; sourceTree = "<group>"; };
+		16D6BDBD42282ED2E5C7956D94D5906A /* debug.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = debug.png; path = BDAutoTracker/Classes/DevTools/Assets/debug.png; sourceTree = "<group>"; };
+		21A42133FF75C3E42B98617C5FDBC1BE /* Pods-range_c-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-range_c-resources.sh"; sourceTree = "<group>"; };
+		26B3DD2C32E30600FEBCE1E3422FE660 /* RangersAppLogCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLogCore.h; path = BDAutoTracker/Classes/Core/Core/Header/RangersAppLogCore.h; sourceTree = "<group>"; };
+		2732F14D3DFA52216A967BE5692DB695 /* BDAutoTrackNotifications.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackNotifications.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackNotifications.h; sourceTree = "<group>"; };
+		276CE8B91FAA9F6E48165F21D813FE7E /* h5bridge-wkwebview.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "h5bridge-wkwebview.js"; path = "BDAutoTracker/Asserts/Core/h5bridge-wkwebview.js"; sourceTree = "<group>"; };
+		276EED08EDCBFC726C356EB58D7E4C4B /* libRangersAppLog_UITracker_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_UITracker_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_UITracker_awesome_ios.a"; sourceTree = "<group>"; };
+		2CF462D58846AA9B530FF51BF3F35884 /* tab-env.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-env.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-env.png"; sourceTree = "<group>"; };
+		3250925DC7AF1D253094514A4D32B73B /* send.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = send.png; path = BDAutoTracker/Classes/DevTools/Assets/send.png; sourceTree = "<group>"; };
+		33BA5886195EF5E231719D4F566D6C64 /* RangersAppLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAppLog-umbrella.h"; sourceTree = "<group>"; };
+		3733DAAB8DC4146999BB87FB4AAA69D9 /* arrow-down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "arrow-down.png"; path = "BDAutoTracker/Classes/DevTools/Assets/arrow-down.png"; sourceTree = "<group>"; };
+		37898CB7F0E8D4A1ACFFEE8168E7846F /* BDAutoTrack+OhayooGameTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+OhayooGameTrack.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+OhayooGameTrack.h"; sourceTree = "<group>"; };
+		3C8F90ABD5C008C40C05CF3A3A449E1D /* RangersAppLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLog.h; path = BDAutoTracker/Classes/Core/Core/Header/RangersAppLog.h; sourceTree = "<group>"; };
+		3EF728999BE5F7BF6ACD056176488403 /* RangersAppLog-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RangersAppLog-xcframeworks.sh"; sourceTree = "<group>"; };
+		411579182CE758610659D62EDF754DFF /* BDAutoTrackURLHostItemCN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackURLHostItemCN.h; path = BDAutoTracker/Classes/Host/CN/BDAutoTrackURLHostItemCN.h; sourceTree = "<group>"; };
+		4899F9243C5BE359A62985C0D83AF6AD /* RangersAppLog-bitdummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangersAppLog-bitdummy.m"; sourceTree = "<group>"; };
+		4C27483BC026BAD3559584375E98EF51 /* libRangersAppLog_CN_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_CN_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_CN_awesome_ios.a"; sourceTree = "<group>"; };
+		51F8D9D19F58AEA6E4D140BBEFEE4A4F /* Pods-range_c-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-range_c-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54F1376DB72E7482AE08E0E17EC35728 /* BDAutoTrackSchemeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackSchemeHandler.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackSchemeHandler.h; sourceTree = "<group>"; };
+		55A228F3280FA546B45648E0DC899F67 /* Pods-range_c-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-range_c-dummy.m"; sourceTree = "<group>"; };
+		573EDE0701B65CF2613BE502A70D2999 /* BDAutoTrack+Special.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Special.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Special.h"; sourceTree = "<group>"; };
+		57C419B3C3C0119AA34928A6490765AD /* setting.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = setting.png; path = BDAutoTracker/Classes/DevTools/Assets/setting.png; sourceTree = "<group>"; };
+		5B6268A0076898A189ABF36A2B9EC865 /* BDAutoTrackConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackConfig.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig.h; sourceTree = "<group>"; };
+		5EDAD1DD1265F43935119B45AA272D2A /* BDAutoTrack+LaunchFrom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+LaunchFrom.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+LaunchFrom.h"; sourceTree = "<group>"; };
+		61206C57C26D19330756AA817F7E8986 /* BDAutoTrack+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Extension.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Extension.h"; sourceTree = "<group>"; };
+		61B9FB0FAF177088BB690522AE736D40 /* BDKeyWindowTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDKeyWindowTracker.h; path = BDAutoTracker/Classes/UITracker/Header/BDKeyWindowTracker.h; sourceTree = "<group>"; };
+		61D39553CC5A68826B4A35ABA3CFD106 /* BDCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCommonDefine.h; path = BDAutoTracker/Classes/Core/Core/Header/BDCommonDefine.h; sourceTree = "<group>"; };
+		64DC7E5CFD7F8915CA896B014A2F6706 /* RangersAppLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RangersAppLog-Info.plist"; sourceTree = "<group>"; };
+		67D664FBFFB8BEA45A84D5536401894B /* BDAutoTrack+Game.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Game.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Game.h"; sourceTree = "<group>"; };
+		6AA6EF1DD6A6C2397440A352BE1E5015 /* BDAutoTrackDevTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackDevTools.h; path = BDAutoTracker/Classes/DevTools/Sources/Public/BDAutoTrackDevTools.h; sourceTree = "<group>"; };
+		6ADD87E09D78F5FC5776DF2E355E3DA6 /* Pods-range_c-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-range_c-umbrella.h"; sourceTree = "<group>"; };
+		70C609DD9F9E42D5D02842E3DDC11152 /* BDCommonEnumDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCommonEnumDefine.h; path = BDAutoTracker/Classes/Core/Core/Header/BDCommonEnumDefine.h; sourceTree = "<group>"; };
+		70D9A66A7FC2512FF532A8F2568EEAFA /* BDAutoTrack+SharedInstance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+SharedInstance.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+SharedInstance.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		781FF12D622497E088A440F2081BB0A2 /* BDAutoTrackEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackEncryptor.h; path = BDAutoTracker/Classes/Encryptor/Volc/Sources/BDAutoTrackEncryptor.h; sourceTree = "<group>"; };
+		7868D7487CA455C8BD9FCDC93B688887 /* libRangersAppLog_Log_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_Log_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_Log_awesome_ios.a"; sourceTree = "<group>"; };
+		7BBC33E213135AD691FBD10FDC84AC95 /* RangersAppLogPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLogPicker.h; path = BDAutoTracker/Classes/Picker/Header/RangersAppLogPicker.h; sourceTree = "<group>"; };
+		7F9F2EA9AAFA1DD9463F3393EB45AD3E /* RangersAppLogUITrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RangersAppLogUITrack.h; path = BDAutoTracker/Classes/UITracker/Header/RangersAppLogUITrack.h; sourceTree = "<group>"; };
+		80593AD8022037BA368D4EDCE6D4F878 /* tab-log-unselected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-log-unselected.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-log-unselected.png"; sourceTree = "<group>"; };
+		82AF8F4F39FBB763B06315AA6B3DC98B /* RangersAppLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RangersAppLog.modulemap; sourceTree = "<group>"; };
+		83D0E6845A2D6D0989A90C955D59CC12 /* RangersAppLog-RangersAppLogDevTools */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RangersAppLog-RangersAppLogDevTools"; path = RangersAppLogDevTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		86266372AE77AD578E3CBB272E353EF7 /* refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = refresh.png; path = BDAutoTracker/Classes/DevTools/Assets/refresh.png; sourceTree = "<group>"; };
+		8A24DDC4B011E26A457C484E73269EDF /* Pods-range_c.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-range_c.modulemap"; sourceTree = "<group>"; };
+		8E3AE73A3EA2982BC91CDE86F85C1614 /* Pods-range_c-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-range_c-Info.plist"; sourceTree = "<group>"; };
+		8F97ECA647FA6C8681104EAFFEC692B5 /* VolcEngineEncryptor.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = VolcEngineEncryptor.xcframework; path = BDAutoTracker/Classes/Encryptor/Volc/Vendor/VolcEngineEncryptor.xcframework; sourceTree = "<group>"; };
+		93E029199815F11811801BE38A334E7A /* BDAutoTrackConfig+BDroneMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrackConfig+BDroneMonitor.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig+BDroneMonitor.h"; sourceTree = "<group>"; };
+		96ECF94FD0EFCA3D68EC88AE22D3B119 /* tab-env-unselected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-env-unselected.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-env-unselected.png"; sourceTree = "<group>"; };
+		9BCCFD4ED6E188F841A83254C2CC393F /* BDAutoTrackCacheRemover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackCacheRemover.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackCacheRemover.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF7CBC73376F14F89A57795F8004CA5 /* RangersAppLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RangersAppLog-prefix.pch"; sourceTree = "<group>"; };
+		A06605C406D21656DE26E54B9F147117 /* correct.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = correct.png; path = BDAutoTracker/Classes/DevTools/Assets/correct.png; sourceTree = "<group>"; };
+		A389F63B7E2D4E8D3FE2485BD352B187 /* BDAutoTrackEncryptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackEncryptionDelegate.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackEncryptionDelegate.h; sourceTree = "<group>"; };
+		A3DF80E5E5D698D94BA4A1D23C8B45CA /* ResourceBundle-RangersAppLog-RangersAppLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RangersAppLog-RangersAppLog-Info.plist"; sourceTree = "<group>"; };
+		AD03CE3CA9E831A25D9AFE0028E7DF92 /* BDAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrack.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack.h; sourceTree = "<group>"; };
+		AD369BABC974E9FE738BDA81D9C4FE7C /* floating_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = floating_icon.png; path = BDAutoTracker/Classes/DevTools/Assets/floating_icon.png; sourceTree = "<group>"; };
+		B3871956845EEED667D18417D3B16ECD /* RangersAppLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RangersAppLog; path = RangersAppLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B5806D3C785CFD2A9910A13848EEE6 /* BDAutoTrack+GameTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+GameTrack.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+GameTrack.h"; sourceTree = "<group>"; };
+		B52933BE74E540928F80C181EDC666EE /* plus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = plus.png; path = BDAutoTracker/Classes/DevTools/Assets/plus.png; sourceTree = "<group>"; };
+		B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog-RangersAppLog */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RangersAppLog-RangersAppLog"; path = RangersAppLog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE8782F836CF00AB819D73EAA3FBCB6 /* Pods-range_c */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-range_c"; path = Pods_range_c.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCAC99ADCDD69BC794E4B3E48CD3D67 /* UIView+TrackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TrackInfo.h"; path = "BDAutoTracker/Classes/UITracker/Header/UIView+TrackInfo.h"; sourceTree = "<group>"; };
+		BDCFA5228F72B0E555AF944A1AF5C62A /* BDAutoTrackConfig+AppLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrackConfig+AppLog.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackConfig+AppLog.h"; sourceTree = "<group>"; };
+		BDEDC53B63A7AD79EE072AF319E8F8FB /* ResourceBundle-RangersAppLogDevTools-RangersAppLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RangersAppLogDevTools-RangersAppLog-Info.plist"; sourceTree = "<group>"; };
+		C74E03C2EC77669BA0FDD57BB0E44FB4 /* libRangersAppLog_Core_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_Core_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_Core_awesome_ios.a"; sourceTree = "<group>"; };
+		CC73373245E7DB1C7F9A4782A565BE52 /* BDAutoTrack+Profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+Profile.h"; path = "BDAutoTracker/Classes/Core/Core/Header/BDAutoTrack+Profile.h"; sourceTree = "<group>"; };
+		D3B7CAFDCFD8B54BCF81E263981AF1CF /* RangersAppLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RangersAppLog-dummy.m"; sourceTree = "<group>"; };
+		D440C35B63C1084C67B7C92E1DD2AA72 /* tab-log.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-log.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-log.png"; sourceTree = "<group>"; };
+		D8DF76CE1E295D5FF3F800E554B7F613 /* libRangersAppLog_Picker_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_Picker_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_Picker_awesome_ios.a"; sourceTree = "<group>"; };
+		DBB477BB50FFD88FC56C03680727C33D /* tab-event.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-event.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-event.png"; sourceTree = "<group>"; };
+		DD626AF4AF943EE1F4A5670F3A9FA294 /* RangersAppLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAppLog.release.xcconfig; sourceTree = "<group>"; };
+		DE0E75FB1358F7AE5EED7697B48D3C04 /* search.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = search.png; path = BDAutoTracker/Classes/DevTools/Assets/search.png; sourceTree = "<group>"; };
+		E17DE92CE2F5F7C284050320EEBEDDE8 /* BDAutoTrackAlinkRouting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackAlinkRouting.h; path = BDAutoTracker/Classes/Core/Core/Header/BDAutoTrackAlinkRouting.h; sourceTree = "<group>"; };
+		E2A691385753D8BB37318893F6A605EE /* libRangersAppLog_Exposure_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_Exposure_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_Exposure_awesome_ios.a"; sourceTree = "<group>"; };
+		E2BCC04C1BD322294B4A343029EAC547 /* BDAutoTrackExposure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAutoTrackExposure.h; path = BDAutoTracker/Classes/Exposure/Sources/BDAutoTrackExposure.h; sourceTree = "<group>"; };
+		E5020C128D4B04E62B6A0C655FB53FBA /* libRangersAppLog_VOLC_awesome_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libRangersAppLog_VOLC_awesome_ios.a; path = "ios-arch-iphone/libRangersAppLog_VOLC_awesome_ios.a"; sourceTree = "<group>"; };
+		E8AE59384C6774B3080CD313B5C5F884 /* feature.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = feature.png; path = BDAutoTracker/Classes/DevTools/Assets/feature.png; sourceTree = "<group>"; };
+		EA985D65A43A894EE10B5E0B435B0C4F /* UIViewController+TrackInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TrackInfo.h"; path = "BDAutoTracker/Classes/UITracker/Header/UIViewController+TrackInfo.h"; sourceTree = "<group>"; };
+		EF513A17E1A1206369EE83F221B4CE23 /* Pods-range_c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-range_c.release.xcconfig"; sourceTree = "<group>"; };
+		F02801A55D9B266CA896B783826156E2 /* tab-event-unselected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tab-event-unselected.png"; path = "BDAutoTracker/Classes/DevTools/Assets/tab-event-unselected.png"; sourceTree = "<group>"; };
+		F1411364D29690409646BCB4D271C10E /* BDAutoTrack+UITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BDAutoTrack+UITracker.h"; path = "BDAutoTracker/Classes/UITracker/Header/BDAutoTrack+UITracker.h"; sourceTree = "<group>"; };
+		FDD3C9B9CCB6DD9A90AB7F7F236F1C34 /* RangersAppLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RangersAppLog.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4D69594AFAC86051CE330A33D2FF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86153F846B4DFA0284DCD61365ED4805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E271BC836BE61265B84BBC78F0AAD6C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F68286E841FAE48EF9A6C0609AE705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5593E5ACDB73A32759CE9A3A0C4FCAE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3094BA4F90612D9A4C07CBA8287A9B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C04C9ABA1B709B1E63A87FC38933EE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AF8F4F39FBB763B06315AA6B3DC98B /* RangersAppLog.modulemap */,
+				D3B7CAFDCFD8B54BCF81E263981AF1CF /* RangersAppLog-dummy.m */,
+				64DC7E5CFD7F8915CA896B014A2F6706 /* RangersAppLog-Info.plist */,
+				9EF7CBC73376F14F89A57795F8004CA5 /* RangersAppLog-prefix.pch */,
+				33BA5886195EF5E231719D4F566D6C64 /* RangersAppLog-umbrella.h */,
+				3EF728999BE5F7BF6ACD056176488403 /* RangersAppLog-xcframeworks.sh */,
+				FDD3C9B9CCB6DD9A90AB7F7F236F1C34 /* RangersAppLog.debug.xcconfig */,
+				DD626AF4AF943EE1F4A5670F3A9FA294 /* RangersAppLog.release.xcconfig */,
+				A3DF80E5E5D698D94BA4A1D23C8B45CA /* ResourceBundle-RangersAppLog-RangersAppLog-Info.plist */,
+				BDEDC53B63A7AD79EE072AF319E8F8FB /* ResourceBundle-RangersAppLogDevTools-RangersAppLog-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RangersAppLog";
+			sourceTree = "<group>";
+		};
+		10F52911D8BA3547EAE236DF3B091CA3 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				FE8C1F1C31BC15E64F4D336C67D5DEBA /* Frameworks */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		187CD6945091D887D45234F4CBB605BC /* DevTools */ = {
+			isa = PBXGroup;
+			children = (
+				6AA6EF1DD6A6C2397440A352BE1E5015 /* BDAutoTrackDevTools.h */,
+				A81700EF16112624FB0676B8E801EE5D /* Frameworks */,
+				CF1CE8366E8DE7EC5F1C7B2BB6475834 /* Resources */,
+			);
+			name = DevTools;
+			sourceTree = "<group>";
+		};
+		1A818D715D27A92EC1BBF02A52EC6CF0 /* VOLC */ = {
+			isa = PBXGroup;
+			children = (
+				781FF12D622497E088A440F2081BB0A2 /* BDAutoTrackEncryptor.h */,
+				60D0FA1B692E8A22687765C9186B89D1 /* Frameworks */,
+			);
+			name = VOLC;
+			sourceTree = "<group>";
+		};
+		1F58DE66AAD73A7AB711B866DF59ABE1 /* Pods-range_c */ = {
+			isa = PBXGroup;
+			children = (
+				8A24DDC4B011E26A457C484E73269EDF /* Pods-range_c.modulemap */,
+				51F8D9D19F58AEA6E4D140BBEFEE4A4F /* Pods-range_c-acknowledgements.markdown */,
+				0A127205E7DA82E755683FB48F2543F1 /* Pods-range_c-acknowledgements.plist */,
+				55A228F3280FA546B45648E0DC899F67 /* Pods-range_c-dummy.m */,
+				8E3AE73A3EA2982BC91CDE86F85C1614 /* Pods-range_c-Info.plist */,
+				21A42133FF75C3E42B98617C5FDBC1BE /* Pods-range_c-resources.sh */,
+				6ADD87E09D78F5FC5776DF2E355E3DA6 /* Pods-range_c-umbrella.h */,
+				0460463F7FD7FB2F299DAE940804D9D6 /* Pods-range_c.debug.xcconfig */,
+				EF513A17E1A1206369EE83F221B4CE23 /* Pods-range_c.release.xcconfig */,
+			);
+			name = "Pods-range_c";
+			path = "Target Support Files/Pods-range_c";
+			sourceTree = "<group>";
+		};
+		22D1143209C31926067EDE83C588403B /* UITracker */ = {
+			isa = PBXGroup;
+			children = (
+				F1411364D29690409646BCB4D271C10E /* BDAutoTrack+UITracker.h */,
+				61B9FB0FAF177088BB690522AE736D40 /* BDKeyWindowTracker.h */,
+				7F9F2EA9AAFA1DD9463F3393EB45AD3E /* RangersAppLogUITrack.h */,
+				1174E353EE30667727032A9A076446A0 /* UIBarButtonItem+TrackInfo.h */,
+				BDCAC99ADCDD69BC794E4B3E48CD3D67 /* UIView+TrackInfo.h */,
+				EA985D65A43A894EE10B5E0B435B0C4F /* UIViewController+TrackInfo.h */,
+				6B5C392A0B8560012DD78451B23ECF56 /* Frameworks */,
+			);
+			name = UITracker;
+			sourceTree = "<group>";
+		};
+		2E0D9C6E469AF45ED2C51796CC6DE160 /* RangersAppLog */ = {
+			isa = PBXGroup;
+			children = (
+				4386F223E90712A0557B9C8CC85E5ECF /* Core */,
+				187CD6945091D887D45234F4CBB605BC /* DevTools */,
+				C86FA7C4A10A00960282D2BAACAA6FAD /* Encryptor */,
+				FEE9E5482A4AFAF43658FE49D7257320 /* Exposure */,
+				8B995A4058204C5B970399F944B02B5C /* Host */,
+				10F52911D8BA3547EAE236DF3B091CA3 /* Log */,
+				3DE1E0109717F231A15A2C50E672F0F5 /* Picker */,
+				0C04C9ABA1B709B1E63A87FC38933EE7 /* Support Files */,
+				22D1143209C31926067EDE83C588403B /* UITracker */,
+			);
+			name = RangersAppLog;
+			path = RangersAppLog;
+			sourceTree = "<group>";
+		};
+		3B4E49404DD01D460CF0957B9F18ABCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				276CE8B91FAA9F6E48165F21D813FE7E /* h5bridge-wkwebview.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DE1E0109717F231A15A2C50E672F0F5 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				7BBC33E213135AD691FBD10FDC84AC95 /* RangersAppLogPicker.h */,
+				AE1E002C4FBF52D0C808AC41629434FD /* Frameworks */,
+			);
+			name = Picker;
+			sourceTree = "<group>";
+		};
+		4386F223E90712A0557B9C8CC85E5ECF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AD03CE3CA9E831A25D9AFE0028E7DF92 /* BDAutoTrack.h */,
+				61206C57C26D19330756AA817F7E8986 /* BDAutoTrack+Extension.h */,
+				67D664FBFFB8BEA45A84D5536401894B /* BDAutoTrack+Game.h */,
+				B3B5806D3C785CFD2A9910A13848EEE6 /* BDAutoTrack+GameTrack.h */,
+				5EDAD1DD1265F43935119B45AA272D2A /* BDAutoTrack+LaunchFrom.h */,
+				37898CB7F0E8D4A1ACFFEE8168E7846F /* BDAutoTrack+OhayooGameTrack.h */,
+				CC73373245E7DB1C7F9A4782A565BE52 /* BDAutoTrack+Profile.h */,
+				70D9A66A7FC2512FF532A8F2568EEAFA /* BDAutoTrack+SharedInstance.h */,
+				573EDE0701B65CF2613BE502A70D2999 /* BDAutoTrack+Special.h */,
+				E17DE92CE2F5F7C284050320EEBEDDE8 /* BDAutoTrackAlinkRouting.h */,
+				9BCCFD4ED6E188F841A83254C2CC393F /* BDAutoTrackCacheRemover.h */,
+				5B6268A0076898A189ABF36A2B9EC865 /* BDAutoTrackConfig.h */,
+				BDCFA5228F72B0E555AF944A1AF5C62A /* BDAutoTrackConfig+AppLog.h */,
+				93E029199815F11811801BE38A334E7A /* BDAutoTrackConfig+BDroneMonitor.h */,
+				A389F63B7E2D4E8D3FE2485BD352B187 /* BDAutoTrackEncryptionDelegate.h */,
+				2732F14D3DFA52216A967BE5692DB695 /* BDAutoTrackNotifications.h */,
+				54F1376DB72E7482AE08E0E17EC35728 /* BDAutoTrackSchemeHandler.h */,
+				61D39553CC5A68826B4A35ABA3CFD106 /* BDCommonDefine.h */,
+				70C609DD9F9E42D5D02842E3DDC11152 /* BDCommonEnumDefine.h */,
+				3C8F90ABD5C008C40C05CF3A3A449E1D /* RangersAppLog.h */,
+				4899F9243C5BE359A62985C0D83AF6AD /* RangersAppLog-bitdummy.m */,
+				26B3DD2C32E30600FEBCE1E3422FE660 /* RangersAppLogCore.h */,
+				B824BA8870318AB819CD434CB3DE74AE /* Frameworks */,
+				3B4E49404DD01D460CF0957B9F18ABCD /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		558447CE9A34E95E3E1DB18EC7EA1E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE8782F836CF00AB819D73EAA3FBCB6 /* Pods-range_c */,
+				B3871956845EEED667D18417D3B16ECD /* RangersAppLog */,
+				B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog-RangersAppLog */,
+				83D0E6845A2D6D0989A90C955D59CC12 /* RangersAppLog-RangersAppLogDevTools */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A57E3D547B42CDF62A91BFCD572BD7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F58DE66AAD73A7AB711B866DF59ABE1 /* Pods-range_c */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60D0FA1B692E8A22687765C9186B89D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5020C128D4B04E62B6A0C655FB53FBA /* libRangersAppLog_VOLC_awesome_ios.a */,
+				8F97ECA647FA6C8681104EAFFEC692B5 /* VolcEngineEncryptor.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5C392A0B8560012DD78451B23ECF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276EED08EDCBFC726C356EB58D7E4C4B /* libRangersAppLog_UITracker_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D62F7F166DC86BA4367085EDDB73EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A691385753D8BB37318893F6A605EE /* libRangersAppLog_Exposure_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B995A4058204C5B970399F944B02B5C /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9253AB29DD84F85E47A9C84EE2604 /* CN */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		9A088594959D0F860EF69F7CE0311901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C27483BC026BAD3559584375E98EF51 /* libRangersAppLog_CN_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A81700EF16112624FB0676B8E801EE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1397F43F592360D07D551D7252244B34 /* libRangersAppLog_DevTools_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADAB7CF82EB0CCD32BFC9F3445DF4F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D9C6E469AF45ED2C51796CC6DE160 /* RangersAppLog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE1E002C4FBF52D0C808AC41629434FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8DF76CE1E295D5FF3F800E554B7F613 /* libRangersAppLog_Picker_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B824BA8870318AB819CD434CB3DE74AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74E03C2EC77669BA0FDD57BB0E44FB4 /* libRangersAppLog_Core_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C86FA7C4A10A00960282D2BAACAA6FAD /* Encryptor */ = {
+			isa = PBXGroup;
+			children = (
+				1A818D715D27A92EC1BBF02A52EC6CF0 /* VOLC */,
+			);
+			name = Encryptor;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ADAB7CF82EB0CCD32BFC9F3445DF4F02 /* Pods */,
+				558447CE9A34E95E3E1DB18EC7EA1E6B /* Products */,
+				5A57E3D547B42CDF62A91BFCD572BD7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1CE8366E8DE7EC5F1C7B2BB6475834 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3733DAAB8DC4146999BB87FB4AAA69D9 /* arrow-down.png */,
+				0EACC2DC8D99C5549D6D407D02048ADD /* close.png */,
+				A06605C406D21656DE26E54B9F147117 /* correct.png */,
+				16D6BDBD42282ED2E5C7956D94D5906A /* debug.png */,
+				E8AE59384C6774B3080CD313B5C5F884 /* feature.png */,
+				AD369BABC974E9FE738BDA81D9C4FE7C /* floating_icon.png */,
+				12B80FF93B5CF657777354552805EE68 /* log.png */,
+				B52933BE74E540928F80C181EDC666EE /* plus.png */,
+				86266372AE77AD578E3CBB272E353EF7 /* refresh.png */,
+				DE0E75FB1358F7AE5EED7697B48D3C04 /* search.png */,
+				3250925DC7AF1D253094514A4D32B73B /* send.png */,
+				57C419B3C3C0119AA34928A6490765AD /* setting.png */,
+				2CF462D58846AA9B530FF51BF3F35884 /* tab-env.png */,
+				96ECF94FD0EFCA3D68EC88AE22D3B119 /* tab-env-unselected.png */,
+				DBB477BB50FFD88FC56C03680727C33D /* tab-event.png */,
+				F02801A55D9B266CA896B783826156E2 /* tab-event-unselected.png */,
+				D440C35B63C1084C67B7C92E1DD2AA72 /* tab-log.png */,
+				80593AD8022037BA368D4EDCE6D4F878 /* tab-log-unselected.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF9253AB29DD84F85E47A9C84EE2604 /* CN */ = {
+			isa = PBXGroup;
+			children = (
+				411579182CE758610659D62EDF754DFF /* BDAutoTrackURLHostItemCN.h */,
+				9A088594959D0F860EF69F7CE0311901 /* Frameworks */,
+			);
+			name = CN;
+			sourceTree = "<group>";
+		};
+		FE8C1F1C31BC15E64F4D336C67D5DEBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7868D7487CA455C8BD9FCDC93B688887 /* libRangersAppLog_Log_awesome_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE9E5482A4AFAF43658FE49D7257320 /* Exposure */ = {
+			isa = PBXGroup;
+			children = (
+				E2BCC04C1BD322294B4A343029EAC547 /* BDAutoTrackExposure.h */,
+				6D62F7F166DC86BA4367085EDDB73EC5 /* Frameworks */,
+			);
+			name = Exposure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54E1337399DF6C2ABEA87635A81271E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764BBA37A1E704A15EAF3E646B23596 /* Pods-range_c-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0D08A6CE512FD3B8435DCF47326D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECF749B24E9CEC5E9C8C2C866D73EC4 /* BDAutoTrack.h in Headers */,
+				6A461AC99055ABDDAB52AEECD0C95D90 /* BDAutoTrack+Extension.h in Headers */,
+				A39B8A936329657743E931583B54229F /* BDAutoTrack+Game.h in Headers */,
+				CA9C6C0A99D0A7A0732CD9CA9723C4C4 /* BDAutoTrack+GameTrack.h in Headers */,
+				C772F55934DB040CBD8F28F440FDE31F /* BDAutoTrack+LaunchFrom.h in Headers */,
+				875A32C81C0658FFFF5B0B2600E73709 /* BDAutoTrack+OhayooGameTrack.h in Headers */,
+				27155693EA85565CBFD681BE1C69CA1E /* BDAutoTrack+Profile.h in Headers */,
+				8C8F0A5982A8181E49BA755B03406963 /* BDAutoTrack+SharedInstance.h in Headers */,
+				47B49E25776BC8AB650AF6639D830447 /* BDAutoTrack+Special.h in Headers */,
+				279171E38DE03397509533C4C15A5AAE /* BDAutoTrack+UITracker.h in Headers */,
+				E20729A03541C7CBE734B3BEB98D2E84 /* BDAutoTrackAlinkRouting.h in Headers */,
+				814A43866233BD2C8BB1531990FD1471 /* BDAutoTrackCacheRemover.h in Headers */,
+				55715E7580ACAEE99A1418D5380691F8 /* BDAutoTrackConfig.h in Headers */,
+				6734B38AA3F72044D11F7DD6DC9CFCB0 /* BDAutoTrackConfig+AppLog.h in Headers */,
+				8C922CD9010BA8DEF359969073121EE3 /* BDAutoTrackConfig+BDroneMonitor.h in Headers */,
+				26BEDFED4415C904DFB2B5C0FA0DC0D2 /* BDAutoTrackDevTools.h in Headers */,
+				2D26916E0BDF45828496B47B97CC2C3C /* BDAutoTrackEncryptionDelegate.h in Headers */,
+				BB3BE508A7BC5080ACAE52014EC7AD6E /* BDAutoTrackEncryptor.h in Headers */,
+				FFAAE4A7D20D1C67B4B278F644C61B26 /* BDAutoTrackExposure.h in Headers */,
+				C0971998209C493FF0BFC92B4FA2C3D9 /* BDAutoTrackNotifications.h in Headers */,
+				17E170854CD79383A5736FDBD0D3F61A /* BDAutoTrackSchemeHandler.h in Headers */,
+				70A1AB717F8F42FC45527384BAC3400F /* BDAutoTrackURLHostItemCN.h in Headers */,
+				C2C0ADD3551D2CE7A3EDEA0C44F13376 /* BDCommonDefine.h in Headers */,
+				60B84D80915BBB08FAEE86CC1B18C379 /* BDCommonEnumDefine.h in Headers */,
+				668F84F223CCC9211DC34ADE7444D1A5 /* BDKeyWindowTracker.h in Headers */,
+				0B93DF180B17E9632E510A5E96CAFC00 /* RangersAppLog.h in Headers */,
+				72D21BF619BB4796DC17BE211801BF33 /* RangersAppLog-umbrella.h in Headers */,
+				2126AD3A110EF1613AE90E948B84DE32 /* RangersAppLogCore.h in Headers */,
+				168EA0E58A57303858E532F478CA592A /* RangersAppLogPicker.h in Headers */,
+				8A69B0C2C65FC967A6504345AE51E42D /* RangersAppLogUITrack.h in Headers */,
+				F869F86624A697D874A8FC6AAA4BE8A8 /* UIBarButtonItem+TrackInfo.h in Headers */,
+				F0A988A6CADE278616D24EC89CD8AB93 /* UIView+TrackInfo.h in Headers */,
+				D0EAD4DC411465B9C671FE81539B50BF /* UIViewController+TrackInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314DB23A9759196361E1830F7FF10D56 /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLog" */;
+			buildPhases = (
+				71B2511E2D1AD7E864D4BEE6A855F01C /* Sources */,
+				1F4D69594AFAC86051CE330A33D2FF19 /* Frameworks */,
+				CC0579F971AE3446F50BC21D84380FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RangersAppLog-RangersAppLog";
+			productName = RangersAppLog;
+			productReference = B5C15BE2142BEBAB61FC774060FEE751 /* RangersAppLog-RangersAppLog */;
+			productType = "com.apple.product-type.bundle";
+		};
+		ABD6330AEC915E3D70F9B015DA99FDDC /* RangersAppLog-RangersAppLogDevTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E5FF25B7D7DBB0CDA62F27180FD8A0 /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLogDevTools" */;
+			buildPhases = (
+				7B698CD5097BDC7CA7098A775F735ADF /* Sources */,
+				A3094BA4F90612D9A4C07CBA8287A9B6 /* Frameworks */,
+				AF8F63674F10CAD48C2EFFA44C1621ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RangersAppLog-RangersAppLogDevTools";
+			productName = RangersAppLogDevTools;
+			productReference = 83D0E6845A2D6D0989A90C955D59CC12 /* RangersAppLog-RangersAppLogDevTools */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5F48AEC2A93879713E05352F43738D /* Build configuration list for PBXNativeTarget "RangersAppLog" */;
+			buildPhases = (
+				FA0D08A6CE512FD3B8435DCF47326D94 /* Headers */,
+				FA6772CD9A868390BCF4FAC441EB03BF /* [CP] Copy XCFrameworks */,
+				52923E0FD6B713AD94BA787D192204E6 /* Sources */,
+				86153F846B4DFA0284DCD61365ED4805 /* Frameworks */,
+				04156F435C25604666AECBBB367F0199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E5DFC9A2A3F5B3EC20A44635C71120 /* PBXTargetDependency */,
+				235577C94FB91C84F7C5F08653FE3136 /* PBXTargetDependency */,
+			);
+			name = RangersAppLog;
+			productName = RangersAppLog;
+			productReference = B3871956845EEED667D18417D3B16ECD /* RangersAppLog */;
+			productType = "com.apple.product-type.framework";
+		};
+		B860C054434CEAB9609F3403687A1A73 /* Pods-range_c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3575D945ED3DBB63C47F3E96986A0966 /* Build configuration list for PBXNativeTarget "Pods-range_c" */;
+			buildPhases = (
+				54E1337399DF6C2ABEA87635A81271E6 /* Headers */,
+				F7A349044CB2B907FA204DDD254DE7A7 /* Sources */,
+				95F68286E841FAE48EF9A6C0609AE705 /* Frameworks */,
+				83E0E867F70AF8AB70CEA5D3899B9DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD7CA1BE9896D8536A3699E76111C02 /* PBXTargetDependency */,
+			);
+			name = "Pods-range_c";
+			productName = Pods_range_c;
+			productReference = BCE8782F836CF00AB819D73EAA3FBCB6 /* Pods-range_c */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 558447CE9A34E95E3E1DB18EC7EA1E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B860C054434CEAB9609F3403687A1A73 /* Pods-range_c */,
+				AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */,
+				7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */,
+				ABD6330AEC915E3D70F9B015DA99FDDC /* RangersAppLog-RangersAppLogDevTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04156F435C25604666AECBBB367F0199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E0E867F70AF8AB70CEA5D3899B9DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8F63674F10CAD48C2EFFA44C1621ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AC565BED3B847451FA08D800421E1F /* arrow-down.png in Resources */,
+				FDCE04887F0847CE4B48478D2C9458D8 /* close.png in Resources */,
+				EB8D7EF92FADF97698F11B19D03354CF /* correct.png in Resources */,
+				2FA3C1F1DAC12CFFACE06D16D07E4D3D /* debug.png in Resources */,
+				61B9B800F3D54A0F44795BED2143093C /* feature.png in Resources */,
+				7F3AB0CB2DCBFBA1683B7CA19B828DA0 /* floating_icon.png in Resources */,
+				A6B1F5D7C9BA03424B0F23D00C1DE755 /* log.png in Resources */,
+				38291D42D74B830E20403F6D0BD0059A /* plus.png in Resources */,
+				15BC76EEC995656AAFDD88136B64CA53 /* refresh.png in Resources */,
+				AF707A8E601A1B9EF03374FB048BDA47 /* search.png in Resources */,
+				26581F61620F28F490B9E094385CB7F3 /* send.png in Resources */,
+				F39C5B43EAE83E3C6C7E0E4E494BBD15 /* setting.png in Resources */,
+				C02ED25F50FDAAD74835193BFDBA3629 /* tab-env.png in Resources */,
+				D0A109462B5ACDC787BDE16E982A8557 /* tab-env-unselected.png in Resources */,
+				63A7C9BE2CD63875CC314D762BDD3ACE /* tab-event.png in Resources */,
+				326531CD713027C745AD590703831152 /* tab-event-unselected.png in Resources */,
+				906993501929CC28D2DA5CD5FD44CDBD /* tab-log.png in Resources */,
+				2D5AD461E6DC923CFE44583E39F4A823 /* tab-log-unselected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0579F971AE3446F50BC21D84380FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C88031AD873DDCF20896B7CE8DE6245 /* h5bridge-wkwebview.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA6772CD9A868390BCF4FAC441EB03BF /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RangersAppLog/RangersAppLog-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RangersAppLog/RangersAppLog-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RangersAppLog/RangersAppLog-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52923E0FD6B713AD94BA787D192204E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D20417D3EB8F559F4FC701EE13FF69F /* RangersAppLog-bitdummy.m in Sources */,
+				647DC2A303C188FB2289AE79B923EA0C /* RangersAppLog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B2511E2D1AD7E864D4BEE6A855F01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B698CD5097BDC7CA7098A775F735ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A349044CB2B907FA204DDD254DE7A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ACD2DAC9573E3B7F3EEE21EAA62C0A /* Pods-range_c-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		235577C94FB91C84F7C5F08653FE3136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RangersAppLog-RangersAppLogDevTools";
+			target = ABD6330AEC915E3D70F9B015DA99FDDC /* RangersAppLog-RangersAppLogDevTools */;
+			targetProxy = 656BB49EC47F581E336363B946258C66 /* PBXContainerItemProxy */;
+		};
+		58E5DFC9A2A3F5B3EC20A44635C71120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RangersAppLog-RangersAppLog";
+			target = 7309BEC62178A076A15A53B5BBCFE773 /* RangersAppLog-RangersAppLog */;
+			targetProxy = 067BF1A4BCD984C6B6465A0ECFDFD652 /* PBXContainerItemProxy */;
+		};
+		BAD7CA1BE9896D8536A3699E76111C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RangersAppLog;
+			target = AF937598E444D6152D9CA2A472767ED9 /* RangersAppLog */;
+			targetProxy = 8C588FE0AD11F5B71EBB4E47E6DBD7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08F7623F095003BB2AEAE9FED033585C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD3C9B9CCB6DD9A90AB7F7F236F1C34 /* RangersAppLog.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLogDevTools-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLogDevTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		450EB116ECF705CFA74E3F7F9438C70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD626AF4AF943EE1F4A5670F3A9FA294 /* RangersAppLog.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAppLog/RangersAppLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/RangersAppLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RangersAppLog/RangersAppLog.modulemap";
+				PRODUCT_MODULE_NAME = RangersAppLog;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56E94888872974B158CB4215036D4807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD3C9B9CCB6DD9A90AB7F7F236F1C34 /* RangersAppLog.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RangersAppLog/RangersAppLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/RangersAppLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/RangersAppLog/RangersAppLog.modulemap";
+				PRODUCT_MODULE_NAME = RangersAppLog;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D52407612DF83F94D65FC838098AFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD3C9B9CCB6DD9A90AB7F7F236F1C34 /* RangersAppLog.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLog-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5ED17BB25E1C0A263966F8ABF96A9BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF513A17E1A1206369EE83F221B4CE23 /* Pods-range_c.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-range_c/Pods-range_c-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-range_c/Pods-range_c.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A22CDDD8702F2E2D9E41466878CB1430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD626AF4AF943EE1F4A5670F3A9FA294 /* RangersAppLog.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLogDevTools-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLogDevTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C35146BB548C6AA93B5B4123DD0BC68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD626AF4AF943EE1F4A5670F3A9FA294 /* RangersAppLog.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RangersAppLog";
+				IBSC_MODULE = RangersAppLog;
+				INFOPLIST_FILE = "Target Support Files/RangersAppLog/ResourceBundle-RangersAppLog-RangersAppLog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RangersAppLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DAF06F11B5B8224C29029FD6EE14D21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0460463F7FD7FB2F299DAE940804D9D6 /* Pods-range_c.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-range_c/Pods-range_c-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-range_c/Pods-range_c.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5F48AEC2A93879713E05352F43738D /* Build configuration list for PBXNativeTarget "RangersAppLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E94888872974B158CB4215036D4807 /* Debug */,
+				450EB116ECF705CFA74E3F7F9438C70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314DB23A9759196361E1830F7FF10D56 /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D52407612DF83F94D65FC838098AFCB /* Debug */,
+				C35146BB548C6AA93B5B4123DD0BC68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3575D945ED3DBB63C47F3E96986A0966 /* Build configuration list for PBXNativeTarget "Pods-range_c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF06F11B5B8224C29029FD6EE14D21A /* Debug */,
+				5ED17BB25E1C0A263966F8ABF96A9BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E5FF25B7D7DBB0CDA62F27180FD8A0 /* Build configuration list for PBXNativeTarget "RangersAppLog-RangersAppLogDevTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08F7623F095003BB2AEAE9FED033585C /* Debug */,
+				A22CDDD8702F2E2D9E41466878CB1430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

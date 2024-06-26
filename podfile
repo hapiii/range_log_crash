@@ -1,0 +1,26 @@
+
+source 'https://github.com/volcengine/volcengine-specs.git'
+source 'https://github.com/bytedance/cocoapods_sdk_source_repo.git'
+
+platform :ios, '13.0'
+use_frameworks!
+
+def ranger
+  pod 'RangersAppLog','6.16.7',
+  :subspecs => [
+  'Host/CN',
+  'Core',
+  #'Unique',
+  'UITracker',
+  
+  'Log',
+  'Picker',
+  'DevTools',
+  #'OneKit',
+  'Exposure',
+  ]
+end
+
+target 'range_c' do
+  ranger
+end

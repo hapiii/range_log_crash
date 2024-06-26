@@ -1,0 +1,38 @@
+PODS:
+  - RangersAppLog/Core (6.16.7):
+    - RangersAppLog/Encryptor/VOLC
+  - RangersAppLog/DevTools (6.16.7):
+    - RangersAppLog/Core
+  - RangersAppLog/Encryptor/VOLC (6.16.7)
+  - RangersAppLog/Exposure (6.16.7):
+    - RangersAppLog/Core
+    - RangersAppLog/UITracker
+  - RangersAppLog/Host/CN (6.16.7):
+    - RangersAppLog/Core
+  - RangersAppLog/Log (6.16.7):
+    - RangersAppLog/Core
+  - RangersAppLog/Picker (6.16.7):
+    - RangersAppLog/Log
+    - RangersAppLog/UITracker
+  - RangersAppLog/UITracker (6.16.7):
+    - RangersAppLog/Core
+
+DEPENDENCIES:
+  - RangersAppLog/Core (= 6.16.7)
+  - RangersAppLog/DevTools (= 6.16.7)
+  - RangersAppLog/Exposure (= 6.16.7)
+  - RangersAppLog/Host/CN (= 6.16.7)
+  - RangersAppLog/Log (= 6.16.7)
+  - RangersAppLog/Picker (= 6.16.7)
+  - RangersAppLog/UITracker (= 6.16.7)
+
+SPEC REPOS:
+  https://github.com/volcengine/volcengine-specs.git:
+    - RangersAppLog
+
+SPEC CHECKSUMS:
+  RangersAppLog: a801a9f1fee2eb0c52f8c6906553472dcb1d5e21
+
+PODFILE CHECKSUM: 7953ec9dfc6ec9b2f199111270d31d100c9bdeda
+
+COCOAPODS: 1.14.3
